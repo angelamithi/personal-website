@@ -2,58 +2,78 @@
 <html lang="en">
     <head>
         <title>My Personal Website</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
         <header>
-        <h1>My Personal Website</h1>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Skills</li>
-                <li>Contact me</li>
+       
+        <div class="nav-bar">
+           
+                <a href="#home">Home</a>
+                <a href="#about-me">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact me</a>
 
-            </ul>
-        </nav>
+          
+        </div>
+        <h1>My Personal Website...</h1>
     </header>
 <body>
   <main>
     <div>
       <section>
-        <h2>About me</h2></section>
+        <h2 id="about-me">About me</h2></section>
+        <table>
+            <tr>
+                <td>
+                    <img src="./images/my_photo.JPG" id="img_photo" alt="my_photo" />
+                    <td id="cell-manipulate">
+                        <p id="intro-to-about-me">Hello, I'm Angela Mithi, and I bring over 16 years of diverse experience in the IT field to the table.<br><br>Throughout my career, I've ventured into various IT disciplines, each contributing to my extensive skill set. These experiences have allowed me to grow and excel in roles ranging from network administration to IT support and software engineering.<br><br>Here's a bit more about my journey:</p>
+                        <ul >
+                            <li><span><strong>Software Engineering:</strong></span> My passion for software engineering has led me to work as a backend developer, specializing in Python. I thrive in designing and developing robust and efficient applications that meet the unique needs of clients and businesses.</li>
+                            <li><span><strong>Front-end Development:</strong></span> In addition to backend development, I've delved into the world of front-end development. I have a knack for creating engaging user interfaces using technologies like JavaScript, React, HTML, and CSS.</li>
+                            <li><span><strong>Networks:</strong></span>I've honed my expertise in network administration, ensuring the seamless flow of data and communication within organizations. My experience includes configuring routers, managing firewalls, and optimizing network performance</li>
+                            <li><span><strong>IT Support:</strong></span> With a keen problem-solving mindset, I've provided IT support to both individuals and teams. My goal is to resolve issues promptly, minimizing disruptions and keeping systems running smoothly.</li>
+                            <li><span><strong>Project Management:</strong></span> Over the years, I've acquired strong project management skills. I have successfully led and coordinated IT projects from inception to completion, ensuring they are delivered on time and within budget. My project management skills encompass defining project scope, setting milestones, managing resources, and mitigating risks to ensure project success.</li>
+                        </ul>
+                </td>
+                </td>
+            </tr>
+           
+        </table>
+       
+    
       <article>
-        <p>Hello, I'm Angela Mithi, and I bring over 16 years of diverse experience in the IT field to the table.Throughout my career, I've ventured into various IT disciplines, each contributing to my extensive skill set. These experiences have allowed me to grow and excel in roles ranging from network administration to IT support and software engineering.Here's a bit more about my journey:</p>
-        <ul>
-            <li><span><strong>Software Engineering:</strong></span> My passion for software engineering has led me to work as a backend developer, specializing in Python. I thrive in designing and developing robust and efficient applications that meet the unique needs of clients and businesses.</li>
-            <li><span><strong>Front-end Development:</strong></span> In addition to backend development, I've delved into the world of front-end development. I have a knack for creating engaging user interfaces using technologies like JavaScript, React, HTML, and CSS.</li>
-            <li><span><strong>Networks:</strong></span>I've honed my expertise in network administration, ensuring the seamless flow of data and communication within organizations. My experience includes configuring routers, managing firewalls, and optimizing network performance</li>
-            <li><span><strong>IT Support:</strong></span> With a keen problem-solving mindset, I've provided IT support to both individuals and teams. My goal is to resolve issues promptly, minimizing disruptions and keeping systems running smoothly.</li>
-            <li><span><strong>Project Management:</strong></span> Over the years, I've acquired strong project management skills. I have successfully led and coordinated IT projects from inception to completion, ensuring they are delivered on time and within budget. My project management skills encompass defining project scope, setting milestones, managing resources, and mitigating risks to ensure project success.</li>
-        </ul>
+         
+        
+      
       </article>     
     </div>
     <div>
      <section>
-      <h2>Skills</h2></section>
-        <article>
-         <p>My key skills include:</p>
-           <ul>
-            <li> Python back-end development </li>
+      <h2 id="skills">Skills</h2></section>
+        <div class="container">
+            <img src="./images/new skills.png" alt="skills">
+          <!-- <ul class="skills-list" >
+            
+           <li > Python back-end development </li>
             <li>JavaScript</li>
             <li>React front-end development</li>
-            <li>HTML and CSS<li>
+            <li>HTML and CSS</li>
              
-         </ul>
-        </article>     
+         </ul> -->
+        </div>  
     </div>
     <div>
       <section>
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
      </section>
-      <form></form>           
+     <p>If you'd like to get in touch or discuss potential opportunities, please feel free to email me at <a href="mailto:angelamithi@gmail.com">angelamithi@gmail.com. </a><br>I'm always eager to explore new challenges and collaborate on exciting projects in the ever-evolving IT landscape.</p>        
     </div>
   </main>
 </body>
 <footer>
+<p>Site Developed By Angela Mithi.<br>Copyright 2023.</p>
+
 
 </footer>
 </html>

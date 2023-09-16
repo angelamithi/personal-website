@@ -1,0 +1,60 @@
+.nav-bar {
+    text-align: center;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+   
+     
+    
+}
+.nav-bar a {
+   
+    color:purple;
+   
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+
+h1{
+    font-style: italic;
+    font-family:sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+}
+
+ h2 {
+ background-color: purple;
+ text-align: center;
+ color:white;
+}
+p {
+    text-align: center;
+}
+div.container {
+    text-align: center;
+}
+ul.skills-list {
+    display: inline-block;
+    text-align: left;
+    font-size: larger;
+}
+
+
+#intro-to-about-me {
+    text-align: center;
+
+}
+td {
+    font-size: larger;
+}
+#cell-manipulate {
+padding: 45px;
+}
+footer {
+    color:white;
+    background-color: purple;
+    font-size: smaller;
+}
