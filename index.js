@@ -1,14 +1,9 @@
-const navLinks=document.querySelector(".nav-link");
+const navLinks=document.querySelectorAll(".nav-link");
 
-
-function changeColorWhenClicked (e) {
-    if (e.type==="click")
-    {
-        navLinks.c
-    }
+navLinks.forEach(menu => {
+    menu.addEventListener('click',e => {
+    e.classList.add('nav-link:active')
+     }
+      )
 }
-
-for (let i = 0; i < navLinks.length; i++) {
-    navLinks[i].addEventListener('click', changeColorWhenClicked );
-}
-
+)
